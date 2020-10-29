@@ -27,6 +27,7 @@ stdenv.mkDerivation rec {
     "-DAVIF_CODEC_AOM=ON"
     "-DAVIF_CODEC_DAV1D=ON"
     "-DAVIF_BUILD_APPS=ON"
+    "-DAVIF_BUILD_GDK_PIXBUF=ON"
   ];
 
   nativeBuildInputs = [
